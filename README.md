@@ -18,3 +18,9 @@ kubectl apply -f manifests/configmap.yaml
 ```bash
 kubectl apply -f manifests/deployment-back.yaml
 ```
+
+## Étape 4 — Deployment frontend
+
+```bash
+kubectl apply -f manifests/deployment-front.yaml
+```

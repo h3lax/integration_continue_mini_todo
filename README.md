@@ -1,0 +1,8 @@
+# TD — Déploiement Kubernetes « Mini Todo »
+
+## Étape 1 — Secret
+
+```bash
+kubectl create secret generic backend-secret \
+  --from-literal=admin-token=s3cr3t-token-td
+```

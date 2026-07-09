@@ -6,3 +6,9 @@
 kubectl create secret generic backend-secret \
   --from-literal=admin-token=s3cr3t-token-td
 ```
+
+## Étape 2 — Configmap
+
+```bash
+kubectl apply -f manifests/configmap.yaml
+```

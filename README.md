@@ -24,3 +24,10 @@ kubectl apply -f manifests/deployment-back.yaml
 ```bash
 kubectl apply -f manifests/deployment-front.yaml
 ```
+
+## Étape 5 — Deployment frontend
+
+```bash
+kubectl apply -f manifests/service-back.yaml
+kubectl apply -f manifests/service-front.yaml
+```

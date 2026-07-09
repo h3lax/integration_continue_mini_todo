@@ -12,3 +12,9 @@ kubectl create secret generic backend-secret \
 ```bash
 kubectl apply -f manifests/configmap.yaml
 ```
+
+## Étape 3 — Deployment backend
+
+```bash
+kubectl apply -f manifests/deployment-back.yaml
+```

@@ -58,3 +58,7 @@ kubectl rollout status deployment/frontend
 `rollout undo` est le plus rapide et le plus sûr — Kubernetes rebascule immédiatement vers la révision précédente (v2.0) déjà connue, sans dépendre de l'état du fichier local. On remet ensuite `deployment-front.yaml` sur `:2.0` pour que le Git reflète l'état réel du cluster.
 
 [plus d'erreur](screenshots/etape_8_no_more_errors.png)
+
+## Étape 9 — Tester le Secret avec curl
+
+[curls](screenshots/etape_9.png)
